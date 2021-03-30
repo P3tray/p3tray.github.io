@@ -1,0 +1,51 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>P3tray.TK - About</title>
+  <script src="../resource/visualiser.js"></script>
+  <link rel="stylesheet" type="text/css" href="../resource/index.css"/>
+</head>
+
+<body>
+<h1 class="title"> Continue down V </h1>
+<p1 class="slogan"> Insert slogan here.</p1>
+
+<div>
+  <button class="mainButton" id="letsGo"> Lets Go </button>
+</div>
+
+<div>
+  <button class="textButton" id="musicPlay">⏵</button>
+</div>
+
+
+
+
+
+<script>
+  const audioVisualizer = new AudioVisualizer('../resource/templeOSRisenRemix.mp3');
+  var paused = true;
+
+  const musicPlay = document.getElementById('musicPlay');
+  musicPlay.addEventListener('click', (event) => {
+    if (paused == true) {
+      audioVisualizer.play();
+      musicPlay.innerHTML = "⏸"
+      paused = false;
+    } else {
+      audioVisualizer.pause();
+      musicPlay.innerHTML = "⏵"
+      paused = true;
+    }
+  });
+</script>
+
+<script>
+  const letsGo = document.getElementById('letsGo');
+  letsGo.addEventListener('click', (event) => {
+    event.preventDefault();
+    window.location.replace("./about")
+  });
+</script>
+</body>
+</html>
