@@ -8,7 +8,7 @@ html {
 
 }
 
-.svgBackground {
+#body{
   height: 100%;
   margin: 0;
   background: #FFFFFF;
@@ -39,6 +39,7 @@ html {
 
 .slogan {
   background: -webkit-linear-gradient(45deg,  #00FFFF 20%, #00FF00 80%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 300;
@@ -51,9 +52,10 @@ html {
 }
 
 .mainButton {
-  background: -webkit-linear-gradient(45deg,  #FFFF00 20%, #00FF00 80%);
-  -webkit-background-clip: ;
-  -webkit-text-fill-color: ;
+  background: -webkit-linear-gradient(45deg,  #ff0000 20%, #00FF00 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-color: #FFFFFF;
   border: none;
   border-radius: 1em;
@@ -67,6 +69,7 @@ html {
 
 .textButton {
   background: -webkit-linear-gradient(45deg,  #AF0200 20%, #57007F 80%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #FFFFFF;

@@ -1,54 +1,20 @@
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>P3tray.TK - Home</title>
-  <script src="./resource/visualiser.js"></script>
-  <link rel="stylesheet" type="text/css" href="./resource/index.css"/>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>P3tray.TK - Home</title>
+    <script src="./resource/visualiser.js"></script>
+    <link rel="stylesheet" type="text/css" href="./resource/index.css"/>
+  </head>
 
-<body>
-<div class="svgBackground">
-<h1 class="title"> Welcome to P3tray.TK </h1>
-<p1 class="slogan"> Browse like nobody's stealing your data! </p1>
-
-<div>
-  <button class="mainButton" id="letsGo"></button>
-</div>
-
-<div>
-  <button class="textButton" id="musicPlay">⏵</button>
-</div>
-<div class="shade" style="position: absolute; top: 0px; height: 200px;">
-</div>
-</div>
-
-
-
-
-<script>
-  const audioVisualizer = new AudioVisualizer('./resource/templeOSRisenRemix.mp3');
-  var paused = true;
-
-  const musicPlay = document.getElementById('musicPlay');
-  musicPlay.addEventListener('click', (event) => {
-    if (paused == true) {
-      audioVisualizer.play();
-      musicPlay.innerHTML = "⏸"
-      paused = false;
-    } else {
-      audioVisualizer.pause();
-      musicPlay.innerHTML = "⏵"
-      paused = true;
-    }
-  });
-</script>
-
-<script>
-  const letsGo = document.getElementById('letsGo');
-  letsGo.addEventListener('click', (event) => {
-    event.preventDefault();
-    window.location.replace("./about")
-  });
-</script>
-</body>
+  <body>
+    <div>
+      <h1 class="title"> Welcome to P3tray.TK </h1>
+      <p1 class="slogan"> Browse like nobody's stealing your data! </p1>
+    </div>
+    <div>
+      <a href="./about/index.html">
+        <button class="mainButton"> Lets go </button>
+      </a>
+    </div>
+  </body>
 </html>
