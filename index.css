@@ -66,7 +66,7 @@ html {
 }
 
 .textButton {
-  background: -webkit-linear-gradient(45deg,  #FFFF00 20%, #00FF00 80%);
+  background: -webkit-linear-gradient(45deg,  #AF0200 20%, #57007F 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #FFFFFF;
