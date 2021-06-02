@@ -1,21 +1,23 @@
 /* */
 
+@keyframes html {
+  0%{background-position:0% 100%}
+  100%{background-position:100% 0%}
+}
+
 html {
   height: 100%;
   margin: 0;
-  background: #FFFFFF;
 
   /* CSS Gradient Background and SVG Image overlay */
 
 
-  background:
-    url("background.svg"),
-    -webkit-linear-gradient(45deg,  #FF5500 10%, #9911FF 90%);
-
+  background: linear-gradient(45deg,  #FF5500 0%, #9911FF 100%);
+  animation: html 5s ease infinite alternate;
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:  400% 400%;
   background-attachment: fixed;
 
   /* HTML-Wide declarations */
@@ -27,8 +29,22 @@ html {
 
 }
 
+.background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: url("background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-attachment: fixed;
+}
+
 .title {
   background: #FFFFFF;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   max-width: 9em;
@@ -39,6 +55,7 @@ html {
 
 .slogan {
   background: -webkit-linear-gradient(45deg,  #00FFFF 20%, #00FF00 80%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 300;
@@ -50,10 +67,19 @@ html {
   display: block;
 }
 
+@keyframes mainButton {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+
 .mainButton {
-  background: -webkit-linear-gradient(45deg,  #AF0200 20%, #57007F 80%);
-  -webkit-background-clip: ;
-  -webkit-text-fill-color: ;
+  background: linear-gradient(45deg,  #ffffff 0%, #ffffff 45%, #ffff99 50%, #ffffff 55%, #929292 100%);
+  background-size: 400% 400%;
+  animation: mainButton 5s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-color: #FFFFFF;
   border: none;
   border-radius: 1em;
@@ -65,8 +91,13 @@ html {
   font-weight: 300;
 }
 
+.mainButton:hover {
+  font-weight: 400;
+}
+
 .textButton {
-  background: -webkit-linear-gradient(45deg,  #00FFFF 20%, #00FF00 80%);
+  background: -webkit-linear-gradient(45deg,  #AF0200 20%, #57007F 80%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #FFFFFF;
