@@ -12,7 +12,7 @@ html {
   /* CSS Gradient Background and SVG Image overlay */
 
   background: linear-gradient(45deg,  #FF5500 0%, #9911FF 100%);
-  animation: html 5s ease infinite alternate;
+  animation: html 5s linear infinite alternate;
 
   background-position: center;
   background-repeat: no-repeat;
