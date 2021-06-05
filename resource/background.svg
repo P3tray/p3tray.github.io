@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="1920"
+   height="1080"
+   viewBox="0 0 508.00001 285.74999"
    version="1.1"
    id="svg6"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -90,7 +90,7 @@
        id="filter1488"
        x="-1.4841794e-05"
        width="1.0000297"
-       y="-2.7181771e-05"
+       y="-2.7181772e-05"
        height="1.0000544">
       <feGaussianBlur
          inkscape:collect="always"
@@ -105,9 +105,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="603.07791"
-     inkscape:cy="445.42412"
+     inkscape:zoom="0.5"
+     inkscape:cx="900.98687"
+     inkscape:cy="552.63255"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -131,7 +131,8 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     units="px" />
   <g
      inkscape:label="Background"
      inkscape:groupmode="layer"
@@ -141,56 +142,63 @@
      id="layer2"
      inkscape:label="Triangles">
     <rect
-       style="opacity:0.9;fill:#000000;fill-opacity:0.53012049;stroke:none;stroke-width:1.165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.9;fill:#000000;fill-opacity:0.53012;stroke:none;stroke-width:0.763642;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect294"
        width="297"
        height="210"
        x="0"
        y="0"
-       clip-path="url(#clipPath336)" />
+       clip-path="url(#clipPath336)"
+       transform="matrix(1.7104281,0,0,1.3607143,-0.0010138,5.1476305e-4)" />
     <rect
-       style="opacity:0.75;fill:#000000;fill-opacity:0.53012049;stroke:none;stroke-width:1.165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.75;fill:#000000;fill-opacity:0.53012;stroke:none;stroke-width:0.763642;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect296"
        width="297"
        height="210"
        x="0"
        y="0"
-       clip-path="url(#clipPath332)" />
+       clip-path="url(#clipPath332)"
+       transform="matrix(1.7104281,0,0,1.3607143,-0.0010138,5.1476305e-4)" />
     <rect
-       style="opacity:0.5;fill:#000000;fill-opacity:0.53012049;stroke:none;stroke-width:1.165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.5;fill:#000000;fill-opacity:0.53012;stroke:none;stroke-width:0.763642;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect298"
        width="297"
        height="210"
        x="0"
        y="0"
-       clip-path="url(#clipPath328)" />
+       clip-path="url(#clipPath328)"
+       transform="matrix(1.7104281,0,0,1.3607143,-0.0010138,5.1476305e-4)" />
     <rect
-       style="opacity:0.6;fill:#000000;fill-opacity:0.53012049;stroke:none;stroke-width:1.165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.6;fill:#000000;fill-opacity:0.53012;stroke:none;stroke-width:0.763642;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect300"
        width="297"
        height="210"
        x="0"
        y="0"
-       clip-path="url(#clipPath324)" />
+       clip-path="url(#clipPath324)"
+       transform="matrix(1.7104281,0,0,1.3607143,-0.0010138,5.1476305e-4)" />
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:0.53012049;stroke:none;stroke-width:1.165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:0.53012;stroke:none;stroke-width:0.763642;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect302"
        width="297"
        height="210"
        x="0"
        y="0"
-       clip-path="url(#clipPath320)" />
+       clip-path="url(#clipPath320)"
+       transform="matrix(1.7104281,0,0,1.3607143,-0.0010138,5.1476305e-4)" />
     <rect
-       style="opacity:0.7;fill:#000000;fill-opacity:0.53012049;stroke:none;stroke-width:1.165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.7;fill:#000000;fill-opacity:0.53012;stroke:none;stroke-width:0.763642;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect304"
        width="297"
        height="210"
        x="0"
        y="0"
-       clip-path="url(#clipPath316)" />
+       clip-path="url(#clipPath316)"
+       transform="matrix(1.7104281,0,0,1.3607143,-0.0010138,5.1476305e-4)" />
     <path
-       style="opacity:0.8;fill:#000000;fill-opacity:0.53012049;stroke:none;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1488)"
+       style="opacity:0.8;fill:#000000;fill-opacity:0.53012;stroke:none;stroke-width:0.763642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1488)"
        d="M 104.6994,105 209.39881,0 297,87.690475 104.6994,105"
-       id="path1474" />
+       id="path1474"
+       transform="matrix(1.7104281,0,0,1.3607143,-0.0010138,5.1476305e-4)" />
   </g>
 </svg>

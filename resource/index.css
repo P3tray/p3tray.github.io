@@ -6,15 +6,14 @@
 }
 
 html {
-  height: 100%;
+
   margin: 0;
 
   /* CSS Gradient Background and SVG Image overlay */
 
-
   background: linear-gradient(45deg,  #FF5500 0%, #9911FF 100%);
   animation: html 5s ease infinite alternate;
-  height: 100%; 
+
   background-position: center;
   background-repeat: no-repeat;
   background-size:  400% 400%;
@@ -29,8 +28,12 @@ html {
 
 }
 
+body {
+  margin: 0;
+}
+
 .background {
-  position: fixed;
+  position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -40,6 +43,12 @@ html {
   background-repeat: no-repeat;
   background-size:  cover;
   background-attachment: fixed;
+}
+
+.title-block {
+  position: absolute;
+  top: 0px;
+  width: 100%;
 }
 
 .title {
@@ -74,6 +83,8 @@ html {
 }
 
 .mainButton {
+  position: relative;
+  top: 50%;
   background: linear-gradient(45deg,  #ffffff 0%, #ffffff 45%, #ffff99 50%, #ffffff 55%, #929292 100%);
   background-size: 400% 400%;
   animation: mainButton 5s linear infinite;
@@ -85,7 +96,7 @@ html {
   border-radius: 1em;
   padding: 0 0.3em 0 0.3em;
   outline: none;
-  margin: 1em auto 0 auto;
+  margin: 0 auto 0 auto;
   font: inherit;
   font-size: 6vmin;
   font-weight: 300;
@@ -109,18 +120,71 @@ html {
   font-weight: 300;
 }
 
-.shade {
-  background: -webkit-linear-gradient(90deg,  #000000 0%, #FFFFFF 100%);
-  border: none;
-  outline: none;
-  margin: 0 0 0 0;
+.section {
+  position: relative;
+  top: 100%;
+  height: 100%;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: inherit;
 }
 
-.audioVisualiser {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 3em;
-  margin:  0 auto 0 auto;
+.section-left {
+  background: -webkit-linear-gradient(-45deg,  #ff0000 0%, #000000 20%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  margin: 10vmin;
+  position: static;
+  float: left;
+  text-align: left;
+  width: calc(100% - 3em);
+  font-weight: 300;
+}
+
+.section-right {
+  background: -webkit-linear-gradient(-45deg,  #000000 60%, #ff0000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  margin: 10vmin;
+  position: static;
+  float: right;
+  text-align: right;
+  width: 90%;
+  font-weight: 300;
+}
+
+.section-left-inverted {
+  background: -webkit-linear-gradient(-45deg,  #00ffff 0%, #ffffff 20%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  margin: 10vmin;
+  position: static;
+  float: left;
+  text-align: left;
+  width: calc(100% - 3em);
+  font-weight: 300;
+}
+
+.section-right-inverted {
+  background: -webkit-linear-gradient(-45deg,  #ffffff 60%, #00ffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #FFFFFF;
+  margin: 10vmin;
+  position: static;
+  float: right;
+  text-align: right;
+  width: 90%;
+  font-weight: 300;
+}
+
+.section-image {
+  height: 40vmin;
 }
